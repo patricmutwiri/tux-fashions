@@ -1,8 +1,8 @@
-### What is this repository for? ###
+### For? ###
 
 * Tux Online Store
 * Version 2.*
-* [Preview](http://tux.co.ke)
+* [Preview](http://tuxfashion.co.ke)
 
 ### How do I get set up? ###
 
@@ -18,5 +18,8 @@
 
 ### Help? ###
 
-* GBC 
+* HS 
 * [Patrick](http://twitter.com/patric_mutwiri)
+
+# tux-fashions
+Tux Fashions - http://tuxfashion.co.ke
