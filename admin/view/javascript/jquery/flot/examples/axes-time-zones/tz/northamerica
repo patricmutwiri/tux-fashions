@@ -1,0 +1,34 @@
+# <pre>
+# This file is in the public domain, so clarified as of
+# 2009-05-17 by Arthur David Olson.
+
+# also includes Central America and the Caribbean
+
+# This data is by no means authoritative; if you think you know better,
+# go ahead and edit the file (and please send any changes to
+# tz@iana.org for general use in the future).
+
+# From Paul Eggert (1999-03-22):
+# A reliable and entertaining source about time zones is
+# Derek Howse, Greenwich time and longitude, Philip Wilson Publishers (1997).
+
+###############################################################################
+
+# United States
+
+# From Paul Eggert (1999-03-31):
+# Howse writes (pp 121-125) that time zones were invented by
+# Professor Charles Ferdinand Dowd (1825-1904),
+# Principal of Temple Grove Ladies' Seminary (Saratoga Springs, NY).
+# His pamphlet ``A System of National Time for Railroads'' (1870)
+# was the result of his proposals at the Convention of Railroad Trunk Lines
+# in New York City (1869-10).  His 1870 proposal was based on Washington, DC,
+# but in 1872-05 he moved the proposed origin to Greenwich.
+# His proposal was adopted by the railroads on 1883-11-18 at 12:00,
+# and the most of the country soon followed suit.
+
+# From Paul Eggert (2005-04-16):
+# That 1883 transition occurred at 12:00 new time, not at 12:00 old time.
+# See p 46 of David Prerau, Seize the daylight, Thunder's Mouth Press (2005).
+
+# From Paul Eggert (2006-03-22):

@@ -1,0 +1,353 @@
+.set-size { 
+	width:1050px;
+}
+
+#tg_kspro_megamenu h3 { 
+	font-family: 'Roboto',sans-serif;
+	font-size:25px;
+	line-height:25px;
+	color:#000000;
+	font-weight:normal;
+	padding-left:5px; 
+}
+
+#tg_kspro_megamenu h4 { 
+	font-size:20px;
+	color:#298ee3;
+	font-family: 'Roboto',sans-serif;
+	line-height:20px;
+	font-weight:normal;
+	border-bottom:1px solid #ededed;
+	padding:14px 0px 8px 0px;
+	margin:0px; 
+}
+
+#tg_kspro_megamenu h5 { 
+	font-size:16px;
+	color:#808080;
+	font-family: 'Roboto',sans-serif;
+	line-height:16px;
+	font-weight:normal;
+	border-bottom:1px solid #ededed;
+	padding:14px 0px 8px 0px;
+	margin:0px; 
+}
+
+/* Content */
+
+#content {
+	 background: none repeat scroll 0 0 #f9f9f9;
+}
+
+#tg_kspro_megamenu .content { 
+	padding:5px;
+	margin-bottom:50px; 
+	background: #ffffff;
+}
+
+	#tg_kspro_megamenu .content > div {
+		border: 1px solid #ededed;
+		border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+	}
+	
+		#tg_kspro_megamenu .content > div .background {
+		}
+		
+			#tg_kspro_megamenu .content > div .background .left {
+				float: left;
+				width: 285px;
+				padding: 20px;
+			}
+			
+				#tg_kspro_megamenu .content .create-new-item {
+					display: block;
+					width: 245px;
+					height: 31px;
+					text-indent: -10000px;
+					margin: 0px 0px 10px 0px;
+					background: url(../image/module_template/create-new-item.png) no-repeat;
+				}
+				
+				#tg_kspro_megamenu .content .button-update-sort {
+					display: block;
+					width: 245px;
+					height: 31px;
+					text-indent: -10000px;
+					border: none;
+					cursor: pointer;
+					margin: 10px 0px 10px 0px;
+					background: url(../image/module_template/update-sort.png) no-repeat;
+				}
+			
+			#tg_kspro_megamenu .content > div .background .right {
+				float: left;
+				padding: 20px 30px 30px 30px;
+				width: 752px;
+				background: #ffffff;
+				border-left: 1px solid #ededed;
+			}
+		
+		#tg_kspro_megamenu .content > div .buttons {
+			background:#f9f9f9;
+			border-top:1px solid #ededed;
+			text-align:right;
+			height:78px;
+			padding:0px 18px;
+		}
+		
+			#tg_kspro_megamenu .content > div .buttons .button-save {
+				display:block;
+				border: none;
+				cursor: pointer;
+				float:right;
+				text-indent:100000px;
+				overflow:hidden;
+				width:136px;
+				height:35px;
+				cursor:pointer;
+				background:url(../image/module_template/button-save.png) top left no-repeat;
+				margin-top:19px;
+				margin-left: 20px;
+			}
+			
+/* Input */
+
+.input { 
+	padding:21px 0px 19px 0px;
+	border-bottom:1px solid #ededed; 
+}
+
+	.input p { 
+		float:left;
+		width:218px;
+		font-family: 'Roboto',sans-serif;
+		color:#000000;
+		font-size:14px;
+		padding:6px 10px 6px 0px;
+		margin:0px;
+		line-height:14px; 
+	}
+	
+	.input select, .input input[type=text], .input textarea { 
+		display:block;
+		float:left;
+		width:172px;
+		margin:0px;
+		padding:0px;
+		border:1px solid #ededed;
+		color:#000000;
+		padding:6px 8px;
+		margin-right:20px; 
+	}
+	
+		.input select {
+			width: 188px;
+			height: 32px;
+		}
+		
+		.input textarea { 
+			float:right;
+			width:444px;
+			margin-right: 0px;
+			height: 250px;
+			max-width:444px; 
+		}
+	
+	.input div {
+		float: left;
+		padding: 7px 0px 0px 0px;
+	}
+	
+	.input .list-language {
+		padding: 0px;
+		width: 400px;
+		position: relative;
+		margin-bottom: -20px;
+	}
+		
+		.input .language {
+			padding: 0px;
+			position: relative;
+		}
+		
+			.input .language input {
+				margin-bottom: 20px;
+				padding-right: 38px;
+				width: 192px;
+			}
+			
+			.input .language img {
+				position: absolute;
+				left: 160px;
+				top: 10px;
+			}
+			
+	.input .own_image img {
+		width: 50px;
+		float: left;
+		height: 50px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+	}
+	
+	.input .own_image a.upload-img {
+		display: block;
+		float: left;
+		margin: 7px 0px 0px 15px;
+		width: 96px;
+		height: 35px;
+		background: #fff url(../image/module_template/upload.png) top left repeat-x;
+	}
+	
+	.input .own_image a.clear-img {
+		display: block;
+		float: left;
+		margin: 7px 0px 0px 0px;
+		width: 96px;
+		height: 38px;
+		background: #fff url(../image/module_template/clear.png) top left repeat-x;
+		margin-left: 20px;
+	}
+	
+	.input .nestable-lists {
+		float: left;
+		width: 462px;
+		padding: 0px;
+	}
+	
+		.input .nestable-lists div {
+			float: none;
+			width: auto;
+			padding: 0px;
+		}
+		
+			.input .nestable-lists div .dd-handle {
+				padding: 5px 10px;
+			}
+	
+	.htmltabs {
+		margin-top: 20px;	
+	}
+	
+	.content_html .input {
+		padding-top: 10px;	
+	}
+			
+		.content_html .input div {
+			padding: 0px;
+			width: auto;
+			float: none;
+		}
+			
+/* Clearfix */
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+			
+/**
+ * Nestable
+ */
+
+.dd { position: relative; display: block; margin: 0; padding: 0; max-width: 600px; list-style: none; font-size: 13px; line-height: 20px; }
+
+.dd-list { display: block; position: relative; margin: 0; padding: 0; list-style: none; }
+.dd-list .dd-list { padding-left: 30px; }
+.dd-collapsed .dd-list { display: none; }
+
+.dd-item,
+.dd-empty,
+.dd-placeholder { display: block; position: relative; margin: 0; padding: 0; min-height: 20px; font-size: 13px; line-height: 20px; }
+
+.dd-handle { display: block; height: 35px; margin: 5px 0; padding: 6px 10px; color: #000000; text-decoration: none; font-weight: bold; border: 1px solid #ededed;
+    background: #f9f9f9;
+    box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.dd-handle:hover { color: #2ea8e5; background: #fff; }
+
+.dd-item > button { display: block; position: relative; cursor: pointer; float: left; width: 25px; height: 20px; margin: 5px 0; padding: 0; text-indent: 100%; white-space: nowrap; overflow: hidden; border: 0; background: transparent; font-size: 12px; line-height: 1; text-align: center; font-weight: bold; }
+.dd-item > button:before { content: '+'; display: block; position: absolute; width: 100%; text-align: center; text-indent: 0; }
+.dd-item > button[data-action="collapse"]:before { content: '-'; }
+
+.dd-placeholder,
+.dd-empty { margin: 5px 0; padding: 0; min-height: 30px; background: #f2fbff; border: 1px dashed #b6bcbf; box-sizing: border-box; -moz-box-sizing: border-box; }
+.dd-empty { border: 1px dashed #bbb; min-height: 100px; background-color: #e5e5e5;
+    background-image: -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), 
+                      -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-image:    -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), 
+                         -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-image:         linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), 
+                              linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+}
+
+.dd-dragel { position: absolute; pointer-events: none; z-index: 9999; }
+.dd-dragel > .dd-item .dd-handle { margin-top: 0; }
+.dd-dragel .dd-handle {
+    -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+            box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+
+.icon-delete {
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 15px;
+	height: 16px;
+	background: url(../image/module_template/delete2.png);
+	cursor: pointer;
+}
+
+.icon-edit {
+	display: block;
+	position: absolute;
+	right: 35px;
+	top: 10px;
+	width: 16px;
+	height: 16px;
+	background: url(../image/module_template/edit.png);
+}
+
+.htabs {
+	padding: 0px 0px 0px 10px;
+	height: 30px;
+	line-height: 16px;
+	border-bottom: 1px solid #ededed;
+	margin-bottom: 15px;
+}
+.htabs a {
+	border-top: 1px solid #ededed;
+	border-left: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+	background: #f9f9f9;
+	padding: 7px 15px 6px 15px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	margin-right: 2px;
+	display: none;
+}
+.htabs a.selected {
+	padding-bottom: 7px;
+	background: #FFFFFF;
+}
